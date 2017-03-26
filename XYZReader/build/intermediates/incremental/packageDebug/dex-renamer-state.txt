@@ -1,7 +1,0 @@
-#Sun Mar 26 20:41:32 IST 2017
-base.0=/home/adhyan/Desktop/XYZ_Reader/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_7ef248b70acfe756de0f3372b50aff501b982583
-renamed.1=classes2.dex
-renamed.0=classes.dex
-file.1=/home/adhyan/Desktop/XYZ_Reader/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_f3d57d925d8a71859a80a2a19e11cec8f2123ae8/classes.dex
-base.1=/home/adhyan/Desktop/XYZ_Reader/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_f3d57d925d8a71859a80a2a19e11cec8f2123ae8
-file.0=/home/adhyan/Desktop/XYZ_Reader/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_7ef248b70acfe756de0f3372b50aff501b982583/classes.dex
