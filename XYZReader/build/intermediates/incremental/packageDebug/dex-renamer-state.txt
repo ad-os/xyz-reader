@@ -1,4 +1,4 @@
-#Sun Mar 26 20:41:32 IST 2017
+#Tue Mar 28 02:32:31 IST 2017
 base.0=/home/adhyan/Desktop/XYZ_Reader/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_7ef248b70acfe756de0f3372b50aff501b982583
 renamed.1=classes2.dex
 renamed.0=classes.dex

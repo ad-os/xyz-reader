@@ -12,14 +12,14 @@
                     "endOffset": 325
                 },
                 "from": {
-                    "file": "/home/adhyan/.android/build-cache/e9acc3efb0c47bff2f1160ce9b24db66e533a5c8/output/res/values-hdpi-v4/values.xml",
+                    "file": "/home/adhyan/.android/build-cache/1078015d506db45ff2739d4f20b868dcc4dc265c/output/res/values-hdpi/values-hdpi.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 282,
+                        "startOffset": 297,
                         "endLine": 8,
                         "endColumn": 13,
-                        "endOffset": 552
+                        "endOffset": 567
                     }
                 }
             }
