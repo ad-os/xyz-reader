@@ -31,12 +31,20 @@ ADDED from /home/adhyan/Desktop/XYZ_Reader/XYZReader/src/main/AndroidManifest.xm
 		ADDED from /home/adhyan/Desktop/XYZ_Reader/XYZReader/src/main/AndroidManifest.xml:9:22-76
 application
 ADDED from /home/adhyan/Desktop/XYZ_Reader/XYZReader/src/main/AndroidManifest.xml:11:5-46:19
-MERGED from [com.android.support:support-v13:22.2.0] /home/adhyan/.android/build-cache/3f8ad4d864cc20febfa7298e6cc12745baae87cb/output/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:palette-v7:22.2.0] /home/adhyan/.android/build-cache/8d03b369f3bcaa4b256aa04684ca4786efeb62fe/output/AndroidManifest.xml:22:5-23:19
-MERGED from [com.android.support:cardview-v7:22.2.0] /home/adhyan/.android/build-cache/06ebb459e1c51959ec474e1e8d5fd3c9683ed7e1/output/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:design:22.2.0] /home/adhyan/.android/build-cache/1a149299b226788af438e26ccf26f7602e2cfa5b/output/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:22.2.0] /home/adhyan/.android/build-cache/1078015d506db45ff2739d4f20b868dcc4dc265c/output/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:22.2.0] /home/adhyan/.android/build-cache/ee81761f612bd7dee182630cc4800b036c1592b7/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:25.0.0] /home/adhyan/.android/build-cache/0007239e95f00997ecaabe3e1fb350ef2515fb87/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:transition:25.0.0] /home/adhyan/.android/build-cache/ca7a20de3def40a4f3fafb5f5f61763d845c1dae/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v13:25.0.0] /home/adhyan/.android/build-cache/8ae0d116eec2b4bf45a129e714c3a197c84df80e/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:25.0.0] /home/adhyan/.android/build-cache/f9019b03341a55137511252572d1da463c3da4d5/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:25.0.0] /home/adhyan/.android/build-cache/531bc72a8026eb07cd99d6d7b46d90573ca2e52a/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.0.0] /home/adhyan/.android/build-cache/b94473e7c089b7b1ca48f9e1c1682b68ee56b9e6/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.0.0] /home/adhyan/.android/build-cache/6256701d1fe2a6e2a2fb91007f70f93fc82a137c/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.0.0] /home/adhyan/.android/build-cache/980a8cef02c171a38f663a2778c5841e17bf47c9/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.0.0] /home/adhyan/.android/build-cache/1a534e3c9b78372cc051e428240542f3d7a4679e/output/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:palette-v7:25.0.0] /home/adhyan/.android/build-cache/0f89e11ff434f57b44cbfc0096a9f75ded88dc18/output/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:support-core-utils:25.0.0] /home/adhyan/.android/build-cache/8e740cacf5806a1aa4772dd7753f7d563e67854e/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.0.0] /home/adhyan/.android/build-cache/5682f013f771e93ae1c5666dcd0f454955bdc878/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.0.0] /home/adhyan/.android/build-cache/d8408c6d39849bb306b49ffd133849f56b4afe57/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:cardview-v7:25.0.0] /home/adhyan/.android/build-cache/ca92f91ad3e8bfaf9ab504e053de522f40d49d48/output/AndroidManifest.xml:22:5-20
 	android:label
 		ADDED from /home/adhyan/Desktop/XYZ_Reader/XYZReader/src/main/AndroidManifest.xml:14:9-41
 	android:allowBackup
@@ -103,13 +111,23 @@ ADDED from /home/adhyan/Desktop/XYZ_Reader/XYZReader/src/main/AndroidManifest.xm
 		ADDED from /home/adhyan/Desktop/XYZ_Reader/XYZReader/src/main/AndroidManifest.xml:42:19-53
 uses-sdk
 INJECTED from /home/adhyan/Desktop/XYZ_Reader/XYZReader/src/main/AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:support-v13:22.2.0] /home/adhyan/.android/build-cache/3f8ad4d864cc20febfa7298e6cc12745baae87cb/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:palette-v7:22.2.0] /home/adhyan/.android/build-cache/8d03b369f3bcaa4b256aa04684ca4786efeb62fe/output/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:22.2.0] /home/adhyan/.android/build-cache/1953fee2cccd418f048ed849d32c49706d7abf7e/output/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:cardview-v7:22.2.0] /home/adhyan/.android/build-cache/06ebb459e1c51959ec474e1e8d5fd3c9683ed7e1/output/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:design:22.2.0] /home/adhyan/.android/build-cache/1a149299b226788af438e26ccf26f7602e2cfa5b/output/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:appcompat-v7:22.2.0] /home/adhyan/.android/build-cache/1078015d506db45ff2739d4f20b868dcc4dc265c/output/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:22.2.0] /home/adhyan/.android/build-cache/ee81761f612bd7dee182630cc4800b036c1592b7/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:25.0.0] /home/adhyan/.android/build-cache/0007239e95f00997ecaabe3e1fb350ef2515fb87/output/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:transition:25.0.0] /home/adhyan/.android/build-cache/ca7a20de3def40a4f3fafb5f5f61763d845c1dae/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v13:25.0.0] /home/adhyan/.android/build-cache/8ae0d116eec2b4bf45a129e714c3a197c84df80e/output/AndroidManifest.xml:21:5-23:55
+MERGED from [com.android.support:appcompat-v7:25.0.0] /home/adhyan/.android/build-cache/f9019b03341a55137511252572d1da463c3da4d5/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.0.0] /home/adhyan/.android/build-cache/531bc72a8026eb07cd99d6d7b46d90573ca2e52a/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.0.0] /home/adhyan/.android/build-cache/b94473e7c089b7b1ca48f9e1c1682b68ee56b9e6/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.0.0] /home/adhyan/.android/build-cache/6256701d1fe2a6e2a2fb91007f70f93fc82a137c/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:animated-vector-drawable:25.0.0] /home/adhyan/.android/build-cache/980a8cef02c171a38f663a2778c5841e17bf47c9/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.0.0] /home/adhyan/.android/build-cache/1a534e3c9b78372cc051e428240542f3d7a4679e/output/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:palette-v7:25.0.0] /home/adhyan/.android/build-cache/0f89e11ff434f57b44cbfc0096a9f75ded88dc18/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-core-utils:25.0.0] /home/adhyan/.android/build-cache/8e740cacf5806a1aa4772dd7753f7d563e67854e/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:recyclerview-v7:25.0.0] /home/adhyan/.android/build-cache/473ac8200f8c04ce0f761e1a1a20cc724743bfef/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-core-ui:25.0.0] /home/adhyan/.android/build-cache/5682f013f771e93ae1c5666dcd0f454955bdc878/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.0.0] /home/adhyan/.android/build-cache/d8408c6d39849bb306b49ffd133849f56b4afe57/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:cardview-v7:25.0.0] /home/adhyan/.android/build-cache/ca92f91ad3e8bfaf9ab504e053de522f40d49d48/output/AndroidManifest.xml:20:5-43
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.0.0] /home/adhyan/.android/build-cache/0007239e95f00997ecaabe3e1fb350ef2515fb87/output/AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
 		INJECTED from /home/adhyan/Desktop/XYZ_Reader/XYZReader/src/main/AndroidManifest.xml
 		INJECTED from /home/adhyan/Desktop/XYZ_Reader/XYZReader/src/main/AndroidManifest.xml

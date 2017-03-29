@@ -13,7 +13,9 @@ import android.graphics.Typeface;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Build;
 import android.os.Bundle;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v4.app.ShareCompat;
+import android.support.v4.widget.NestedScrollView;
 import android.support.v7.graphics.Palette;
 import android.text.Html;
 import android.text.format.DateUtils;
@@ -52,6 +54,8 @@ public class ArticleDetailFragment extends Fragment implements
     private ObservableScrollView mScrollView;
     private DrawInsetsFrameLayout mDrawInsetsFrameLayout;
     private ColorDrawable mStatusBarColorDrawable;
+    private NestedScrollView mNestedScrollView;
+    private FloatingActionButton mFloatingActionButton;
 
     private int mTopInset;
     private View mPhotoContainerView;
@@ -108,12 +112,32 @@ public class ArticleDetailFragment extends Fragment implements
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
             Bundle savedInstanceState) {
         mRootView = inflater.inflate(R.layout.fragment_article_detail, container, false);
+        mFloatingActionButton = (FloatingActionButton) mRootView.findViewById(R.id.share_fab);
         mDrawInsetsFrameLayout = (DrawInsetsFrameLayout)
                 mRootView.findViewById(R.id.draw_insets_frame_layout);
         mDrawInsetsFrameLayout.setOnInsetsCallback(new DrawInsetsFrameLayout.OnInsetsCallback() {
             @Override
             public void onInsetsChanged(Rect insets) {
                 mTopInset = insets.top;
+            }
+        });
+
+        mNestedScrollView = (NestedScrollView) mRootView.findViewById(R.id.nested_scroll_view);
+
+        mNestedScrollView.setOnScrollChangeListener(new NestedScrollView.OnScrollChangeListener() {
+            @Override
+            public void onScrollChange(NestedScrollView v, int scrollX, int scrollY, int oldScrollX, int oldScrollY) {
+                if (scrollY > oldScrollY) {
+                    mFloatingActionButton.setVisibility(View.INVISIBLE);
+                }
+
+                if (scrollY == 0) {
+                    mFloatingActionButton.setVisibility(View.VISIBLE);
+                }
+
+                if (scrollY == (v.getChildAt(0).getMeasuredHeight() - v.getMeasuredHeight())) {
+                    mFloatingActionButton.setVisibility(View.VISIBLE);
+                }
             }
         });
 

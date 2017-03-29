@@ -22,14 +22,17 @@ import android.graphics.Canvas;
 import android.graphics.Rect;
 import android.graphics.drawable.Drawable;
 import android.os.Build;
+import android.support.design.widget.CoordinatorLayout;
 import android.util.AttributeSet;
+import android.util.Log;
+import android.view.View;
 import android.view.WindowInsets;
 import android.widget.FrameLayout;
 
 import com.example.xyzreader.R;
 
 
-public class DrawInsetsFrameLayout extends FrameLayout {
+public class DrawInsetsFrameLayout extends CoordinatorLayout {
     private Drawable mInsetBackground;
     private Drawable mTopInsetBackground;
     private Drawable mBottomInsetBackground;
@@ -38,6 +41,7 @@ public class DrawInsetsFrameLayout extends FrameLayout {
     private Rect mInsets;
     private Rect mTempRect = new Rect();
     private OnInsetsCallback mOnInsetsCallback;
+    private static final String TAG = DrawInsetsFrameLayout.class.getSimpleName();
 
     public DrawInsetsFrameLayout(Context context) {
         super(context);
@@ -78,7 +82,7 @@ public class DrawInsetsFrameLayout extends FrameLayout {
     }
 
     @Override
-    protected void onAttachedToWindow() {
+    public void onAttachedToWindow() {
         super.onAttachedToWindow();
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             requestApplyInsets();
@@ -89,7 +93,7 @@ public class DrawInsetsFrameLayout extends FrameLayout {
     }
 
     @Override
-    protected void onDetachedFromWindow() {
+    public void onDetachedFromWindow() {
         super.onDetachedFromWindow();
         if (mInsetBackground != null) {
             mInsetBackground.setCallback(null);
